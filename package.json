@@ -11,7 +11,8 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "^2.6.0"
+    "vue": "^2.6.0",
+    "shortid": "^2.2.14"
   },
   "devDependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.2.0",
@@ -30,7 +31,7 @@
     "eslint": "^5.13.0",
     "eslint-plugin-vue": "^5.1.0",
     "node-sass": "^4.11.0",
-    "rd-linters": "1.0.8",
+    "rd-linters": "1.0.9",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-storybook": "^0.5.0",
     "vue-template-compiler": "^2.6.0"

@@ -4338,10 +4338,10 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-rd-vue@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-rd-vue/-/eslint-config-rd-vue-1.0.3.tgz#0dd684525a2eca7582a1df7cf542e93cb5205102"
-  integrity sha512-rEs0Pc6UHb94Z5eUj/mi9TnLmWTRAb1jmUuvBY6v0jOO4wveQdsek95fHH4F9DH+nD3D4RGmoQS3M8If5J3ZJg==
+eslint-config-rd-vue@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-rd-vue/-/eslint-config-rd-vue-1.0.4.tgz#be18eb2a8b8efed57932385acd517bbb9659f719"
+  integrity sha512-s9bT2BkB87omUZrq8DCsjxmVLt1EAi3yigfuUuSkj7SVupgiHvHRZdBEGBhApkgY6WPeut7WTHi9blU4L9I0/Q==
   dependencies:
     "@vue/eslint-config-airbnb" "^4.0.0"
     babel-eslint "^10.0.1"
@@ -8057,6 +8057,11 @@ nan@^2.10.0, nan@^2.9.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.12.1.tgz#7b1aa193e9aa86057e3c7bbd0ac448e770925552"
   integrity sha512-JY7V6lRkStKcKTvHO5NVSQRv+RV+FIL5pvDoLiAtSL9pKlC5x9PKQcZDsq7m4FO4d57mkhC6Z+QhAh3Jdk5JFw==
 
+nanoid@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.0.1.tgz#deb55cac196e3f138071911dabbc3726eb048864"
+  integrity sha512-k1u2uemjIGsn25zmujKnotgniC/gxQ9sdegdezeDiKdkDW56THUMqlz3urndKCXJxA6yPzSZbXx/QCMe/pxqsA==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -9640,13 +9645,13 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-rd-linters@1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/rd-linters/-/rd-linters-1.0.8.tgz#6fa09e6e07793c81bb15d73695d40c56d1bf0e0a"
-  integrity sha512-k1lyD6/9cSv3Ia7ZlJz6YCd/NZ3IxHVYg2U/iYvrM3GERZKjU6k9tuHhcK+meqGQXHNGur84qRkXUGHzif2Ygw==
+rd-linters@1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/rd-linters/-/rd-linters-1.0.9.tgz#bafdd0c6d2943f411821cf4206e593b3ad13075d"
+  integrity sha512-mU6Ju5SOZ9AqIjVz3W/CsAyEMQuEStA+D/dx3po191PCUZVrmjsKrujF9T4EfUjdQvNHT5tPYAW323jnCG/x7A==
   dependencies:
     eslint-config-rd "^1.0.6"
-    eslint-config-rd-vue "^1.0.3"
+    eslint-config-rd-vue "^1.0.4"
     stylelint-config-rd "^1.0.2"
 
 react-dev-utils@^6.1.0:
@@ -10617,6 +10622,13 @@ shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha512-vFwSUfQvqybiICwZY5+DAWIPLKsWO31Q91JSKl3UYv+K5c2QRPzn0qzec6QPu1Qc9eHYItiP3NdJqNVqetYAww==
+
+shortid@^2.2.14:
+  version "2.2.14"
+  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.14.tgz#80db6aafcbc3e3a46850b3c88d39e051b84c8d18"
+  integrity sha512-4UnZgr9gDdA1kaKj/38IiudfC3KHKhDc1zi/HSxd9FQDR0VLwH3/y79tZJLsVYPsJgIjeHjqIWaWVRJUj9qZOQ==
+  dependencies:
+    nanoid "^2.0.0"
 
 sigmund@^1.0.1:
   version "1.0.1"
