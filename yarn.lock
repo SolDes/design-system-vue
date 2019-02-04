@@ -255,6 +255,14 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-syntax-decorators" "^7.2.0"
 
+"@babel/plugin-proposal-export-default-from@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.2.0.tgz#737b0da44b9254b6152fe29bb99c64e5691f6f68"
+  integrity sha512-NVfNe7F6nsasG1FnvcFxh2FN0l04ZNe75qTOAVOILWPam0tw9a63RtT/Dab8dPjedZa4fTQaQ83yMMywF9OSug==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-export-default-from" "^7.2.0"
+
 "@babel/plugin-proposal-json-strings@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.2.0.tgz#568ecc446c6148ae6b267f02551130891e29f317"
@@ -306,6 +314,13 @@
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-dynamic-import/-/plugin-syntax-dynamic-import-7.2.0.tgz#69c159ffaf4998122161ad8ebc5e6d1f55df8612"
   integrity sha512-mVxuJ0YroI/h/tbFTPGZR8cv6ai+STMKNBq0f8hFxsxWjl94qqhsb+wXbpNMDPU3cfR1TIsVFzU3nXyZMqyK4w==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+
+"@babel/plugin-syntax-export-default-from@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.2.0.tgz#edd83b7adc2e0d059e2467ca96c650ab6d2f3820"
+  integrity sha512-c7nqUnNST97BWPtoe+Ssi+fJukc9P9/JMZ71IOMNQWza2E+Psrd46N6AEvtw6pqK+gt7ChjXyrw4SPDO79f3Lw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
@@ -4323,10 +4338,10 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-rd-vue@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-rd-vue/-/eslint-config-rd-vue-1.0.2.tgz#5aaec2941c085a2ceb864cdf79861272fc1f5e21"
-  integrity sha512-B6ralteiGcGXN8ojd1gLYdspU1d5ZSd+S/yhkQZ5J27Hndkt9JEgs0Rqr3WR6BBRCWSa7j+vzsm9uV3UkCVmlg==
+eslint-config-rd-vue@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-rd-vue/-/eslint-config-rd-vue-1.0.3.tgz#0dd684525a2eca7582a1df7cf542e93cb5205102"
+  integrity sha512-rEs0Pc6UHb94Z5eUj/mi9TnLmWTRAb1jmUuvBY6v0jOO4wveQdsek95fHH4F9DH+nD3D4RGmoQS3M8If5J3ZJg==
   dependencies:
     "@vue/eslint-config-airbnb" "^4.0.0"
     babel-eslint "^10.0.1"
@@ -9625,13 +9640,13 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-rd-linters@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/rd-linters/-/rd-linters-1.0.7.tgz#a24c3532828f996c515be4cde25e76ae2ac69b2c"
-  integrity sha512-85t1PRNzRvAC0DX/5aUrKSXD38p4iGmKDbctEoIBlVxUjfNsalVDscELc2sMRuWgUktBL38JoJXqXYeWlj2qTA==
+rd-linters@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/rd-linters/-/rd-linters-1.0.8.tgz#6fa09e6e07793c81bb15d73695d40c56d1bf0e0a"
+  integrity sha512-k1lyD6/9cSv3Ia7ZlJz6YCd/NZ3IxHVYg2U/iYvrM3GERZKjU6k9tuHhcK+meqGQXHNGur84qRkXUGHzif2Ygw==
   dependencies:
     eslint-config-rd "^1.0.6"
-    eslint-config-rd-vue "^1.0.2"
+    eslint-config-rd-vue "^1.0.3"
     stylelint-config-rd "^1.0.2"
 
 react-dev-utils@^6.1.0:
@@ -12046,10 +12061,10 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.22:
-  version "2.5.22"
-  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.5.22.tgz#c3d3c02c65f1908205c4fbd3b0ef579e51239955"
-  integrity sha512-1VTw/NPTUeHNiwhkq6NkFzO7gYLjFCueBN0FX8NEiQIemd5EUMQ5hxrF7O0zCPo5tae+U9S/scETPea+hIz8Eg==
+vue-template-compiler@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.0.tgz#02bb9a7c0cc88721c8dc0580bdf15f0588149d4a"
+  integrity sha512-rHay+P7aUNm75R7SaXvWFWWI6IB3sq9BX+n7awQSYXFXHUpaCOtlrkrfJomIxBvG2f96eIFQOexslvKxPy5l4g==
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -12059,10 +12074,10 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.8.2:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
   integrity sha512-cliV19VHLJqFUYbz/XeWXe5CO6guzwd0yrrqqp0bmjlMP3ZZULY7fu8RTC4+3lmHwo6ESVDHFDsvjB15hcR5IA==
 
-vue@^2.5.22:
-  version "2.5.22"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.22.tgz#3bf88041af08b8539c37b268b70ca79245e9cc30"
-  integrity sha512-pxY3ZHlXNJMFQbkjEgGVMaMMkSV1ONpz+4qB55kZuJzyJOhn6MSy/YZdzhdnumegNzVTL/Dn3Pp4UrVBYt1j/g==
+vue@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.0.tgz#d5eeb08b3b10f338f25760fd83019db2153fbcfb"
+  integrity sha512-QSKHpmV17wqDmS5jVCc8X9LyTcCCQP4M1RTRpLBO+hRveePduJaGz1FGjVpRVcE6cKYbhsooz6RW7GWLGNjKGg==
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"

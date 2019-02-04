@@ -11,9 +11,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "^2.5.22"
+    "vue": "^2.6.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
     "@salesforce-ux/design-system": "^2.8.1",
     "@storybook/addon-actions": "^4.1.11",
     "@storybook/addon-links": "^4.1.11",
@@ -29,9 +30,9 @@
     "eslint": "^5.13.0",
     "eslint-plugin-vue": "^5.1.0",
     "node-sass": "^4.11.0",
-    "rd-linters": "1.0.7",
+    "rd-linters": "1.0.8",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-storybook": "^0.5.0",
-    "vue-template-compiler": "^2.5.22"
+    "vue-template-compiler": "^2.6.0"
   }
 }
